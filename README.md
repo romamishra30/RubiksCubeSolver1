@@ -1,4 +1,4 @@
-# 🎲 Rubik's Cube Solver
+# Rubik's Cube Solver
 
 A high-performance automatic Rubik's cube solver implemented in C++ that takes steps to scrample a solved cube and outputs the optimal sequence of moves to solve it.
 
