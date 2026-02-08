@@ -1,6 +1,7 @@
 # Rubik's Cube Solver
 
-A high-performance automatic Rubik's cube solver implemented in C++ that takes steps to scrample a solved cube and outputs the optimal sequence of moves to solve it.
+A C++ Rubik’s Cube solver that models cube state using matrix-based representation and applies a deterministic layer-by-layer solving algorithm. Designed with modular rotation logic and state validation to ensure correctness across transformations.
+
 
 ## 🚀 Quick Start
 
@@ -50,6 +51,13 @@ Final positioning step, also divided for simplicity:
 - **Corner Permutation**: Places corners in correct positions
 - **Edge Permutation**: Completes the solve with edge positioning
 - *Simplifies from 21 cases to 8 manageable patterns*
+
+
+🧠 Design Considerations
+- Ensures cube state consistency after every rotation
+- Uses deterministic rule-based solving (no brute force search)
+- Tradeoff: prioritizes reliability and readability over shortest-move optimization
+
 
 ## 🎯 Technical Implementation
 
